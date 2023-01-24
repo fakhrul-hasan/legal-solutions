@@ -12,7 +12,7 @@ body p{
     height: 80vh;
 }
 @media screen and (max-width:576px) {
-    #banner-text{
+    #banner-text, .client{
         width: 100%!important;
         padding: auto 5px!important;
     }
@@ -20,3 +20,13 @@ body p{
 #card-2{
     background: linear-gradient(to bottom, #E7E7E7, #FFFFFF);
   }
+  .carousel .carousel-item {
+    max-height:430px;
+}
+
+.carousel-item img {
+    object-fit:cover;
+    max-height:430px;
+}
+.active{
+    
