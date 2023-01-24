@@ -1,3 +1,22 @@
+body{
+    font-family: 'EB Garamond', serif;
+}
+body p{
+    font-family: 'Poppins', sans-serif;
+}
 .logo{
     height: 45px;
 }
+.banner{
+    background-image: url(../images/banner.png);
+    height: 80vh;
+}
+@media screen and (max-width:576px) {
+    #banner-text{
+        width: 100%!important;
+        padding: auto 5px!important;
+    }
+}
+#card-2{
+    background: linear-gradient(to bottom, #E7E7E7, #FFFFFF);
+  }

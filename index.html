@@ -11,13 +11,20 @@
     />
     <link rel="stylesheet" href="./css/bootstrap.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/sample.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header class="container">
+    <header class="container mb-5">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img class="logo" src="./images/business.png" alt="" /> Justice</a
+          <a class="navbar-brand fw-bolder fs-4" href="#">
+            <img class="logo" src="./images/logo2.png" alt="" /></a
           >
           <button
             class="navbar-toggler"
@@ -30,8 +37,11 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse ms-5 ps-5" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <div
+            class="collapse navbar-collapse ms-lg-5 ps-lg-5"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-light">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
@@ -90,7 +100,9 @@
                         aria-label="Close"
                       ></button>
                     </div>
-                    <div class="modal-body">You have to log in/register for free consultation</div>
+                    <div class="modal-body">
+                      You have to log in/register for free consultation
+                    </div>
                     <div class="modal-footer">
                       <button
                         type="button"
@@ -110,7 +122,100 @@
           </div>
         </div>
       </nav>
+      <div
+        class="banner text-center d-flex align-items-center justify-content-center mb-5 rounded"
+      >
+        <div class="w-50" id="banner-text">
+          <h3 class="text-white fw-bolder fs-1">
+            We Provide Effective<br />
+            Legal Solutions
+          </h3>
+          <p class="text-white fw-lighter">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour.
+          </p>
+          <input
+            class="w-50 p-1 rounded py-1"
+            type="text"
+            placeholder="Search your services"
+          /><button class="btn btn-primary ms-3">Search</button>
+        </div>
+      </div>
     </header>
+
+    <!-- legal practice area -->
+    <div class="container">
+      <div class="w-75 mx-auto">
+        <h1 class="fw-bolder fs-3 text-center">The Legal Practice Area</h1>
+        <p class="text-center">
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour.
+        </p>
+      </div>
+      <div class="container text-center">
+          <div class="row">
+            <div class="col card card-body px-4 py-5 border-top-0 border-start-0" style="width: 18rem;">
+              <img src="./images/business.png" class="card-img-top w-25 mx-auto mb-4" alt="..." />
+              <h4 class="card-title fw-bolder fs-4 mb-3">Business Law</h4>
+              <p class="card-text fw-lighter">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <i class="bi bi-arrow-right-circle-fill text-warning"></i>
+            </div>
+            <div class="col card card-body px-4 py-5" id="card-2" style="width: 18rem;">
+                <img src="./images/criminal.png" class="card-img-top w-25 mx-auto mb-4" alt="..." />
+                <h4 class="card-title fw-bolder fs-4 mb-3">Criminal Law</h4>
+                <p class="card-text fw-lighter">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <i class="bi bi-arrow-right-circle-fill text-warning"></i>
+              </div>
+              <div class="col card card-body px-4 py-5 border-top-0 border-end-0" style="width: 18rem;">
+                <img src="./images/child.png" class="card-img-top w-25 mx-auto mb-4" alt="..." />
+                <h4 class="card-title fw-bolder fs-4 mb-3">Child Support</h4>
+                <p class="card-text fw-lighter">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <i class="bi bi-arrow-right-circle-fill text-warning"></i>
+              </div>
+          </div>
+          <div class="row">
+            <div class="col card card-body px-4 py-5 border-start-0 border-bottom-0" style="width: 18rem;">
+                <img src="./images/education.png" class="card-img-top w-25 mx-auto mb-4" alt="..." />
+                <h4 class="card-title fw-bolder fs-4 mb-3">Education Law</h4>
+                <p class="card-text fw-lighter">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <i class="bi bi-arrow-right-circle-fill text-warning"></i>
+              </div>
+              <div class="col card card-body px-4 py-5 border-bottom-0" style="width: 18rem;">
+                <img src="./images/divorce.png" class="card-img-top w-25 mx-auto mb-4 h-100" alt="..." />
+                <h4 class="card-title fw-bolder fs-4 mb-3">Divorce Law</h4>
+                <p class="card-text fw-lighter">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <i class="bi bi-arrow-right-circle-fill text-warning"></i>
+              </div>
+              <div class="col card card-body px-4 py-5 border-bottom-0 border-end-0" style="width: 18rem;">
+                <img src="./images/tax.png" class="card-img-top w-25 mx-auto mb-4" alt="..." />
+                <h4 class="card-title fw-bolder fs-4 mb-3">Tax Law</h4>
+                <p class="card-text fw-lighter">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <i class="bi bi-arrow-right-circle-fill text-warning"></i>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- bootstrap js   -->
     <script src="./js/bootstrap.js"></script>
