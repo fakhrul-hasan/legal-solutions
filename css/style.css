@@ -28,5 +28,25 @@ body p{
     object-fit:cover;
     max-height:430px;
 }
-.active{
-    
+.mx-height{
+    max-height: 470px;
+    min-width: 520px;
+}
+.accordion{
+    min-width: 523px;
+}
+@media screen and (max-width:576px) {
+    #accordion{
+        flex-direction: column-reverse;
+    }
+    .accordion, .mx-height{
+        min-width: 0;
+        width: 100vw;
+        margin-right: 5px;
+        box-sizing: border-box;
+    }    
+}
+input::placeholder{
+    color: red;
+    padding-left: 10px;
+}
