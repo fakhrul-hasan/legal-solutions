@@ -46,7 +46,3 @@ body p{
         box-sizing: border-box;
     }    
 }
-input::placeholder{
-    color: red;
-    padding-left: 10px;
-}
